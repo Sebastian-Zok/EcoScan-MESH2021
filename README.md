@@ -1,5 +1,5 @@
 <p align="center" > 
-<img src="https://github.com/Sebastian-Zok/EcoScan-MESH2021/blob/main/img/mesh.png">
+<img src="https://github.com/Sebastian-Zok/EcoScan-MESH2021/blob/main/img/mesha.png">
 </p>
 
 
