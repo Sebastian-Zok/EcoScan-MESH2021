@@ -1,5 +1,4 @@
 # ÖkoScan #MESH2021
 
-<p align="center">
-![alt text](https://github.com/Sebastian-Zok/EcoScan-MESH2021/blob/main/img/Logo.png?raw=true)
-</p>
+
+<img align="center" width="100" height="100" src="https://github.com/Sebastian-Zok/EcoScan-MESH2021/blob/main/img/Logo.png">
