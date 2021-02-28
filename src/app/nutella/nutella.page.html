@@ -1,22 +1,168 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Nutella
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Summary</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
   <ion-card>
     <ion-card-header>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-      <ion-card-title color="warning">Nutella</ion-card-title>
-    </ion-card-header>
+      <ion-card-title>Nutella</ion-card-title>
 
+    </ion-card-header>
     <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+
+      <ion-grid><ion-row>
+        <ion-col size= "4">
+          <img src="../assets/img/nutella.png"  >
+        </ion-col>
+        <ion-col >
+          <ion-row >
+            <ion-col size = "8">Co2 pro Kg: </ion-col>
+            <ion-col size = "4" style="color: #ff0000;">-</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size = "8">Umwelt-Score: </ion-col>
+            <ion-col style="color: #00ff22;">D</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size = "8">Nutri-Score: </ion-col>
+            <ion-col style="color: #ff0000;">E</ion-col>
+          </ion-row>
+    </ion-col>
+      </ion-row>
+
+    </ion-grid>
+
     </ion-card-content>
   </ion-card>
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>N&auml;hrwertangaben (je 100g)</ion-card-title>
+
+    </ion-card-header>
+    <ion-card-content>
+
+      <ion-grid><ion-row>
+        <ion-list>
+          <ion-item>
+            <ion-label>Energie                                2252kJ|539 kcal</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Fett                                   30,9 g</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>davon ges&auml;ttige Fetts&auml;uren   10,6 g</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Kohlenhydrate                           57,5 g</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>davon Zucker  56,3 g</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Eiwei&szlig; 6,3 g</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Salz 0,107 g</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-row>
+
+    </ion-grid>
+
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Inhaltsstoffe</ion-card-title>
+
+    </ion-card-header>
+    <ion-card-content>
+
+      <ion-grid>
+        <ion-list>
+          <ion-item>
+            <ion-label>Zucker</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label style="color: #ff0000;">Palmöl</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Magermilchpulver</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>fettarmer Kakao</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Haselnüsse</ion-label>
+          </ion-item>
+        </ion-list>
+    </ion-grid>
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title style="color: #ff0000;">Vorsicht!</ion-card-title>
+
+    </ion-card-header>
+    <ion-card-content>
+
+      <ion-grid>
+        Dieser Artikel enthählt Palmöl. Die gewinnung von Palmöl ist besonders Umweltbelasten, wodurch geraten wird lieber auf Artikel ohne Palmöl zuzugreifen. Palmöl freie Artikel siehst du weiter unten.
+        Interressierst du dich mehr für die Gewinnung von Palmöl, kannst du dich hier informieren.
+    </ion-grid>
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Umweltfreundlichere Alternativen</ion-card-title>
+
+    </ion-card-header>
+    <ion-card-content>
+
+      <ion-grid><ion-row>
+        <ion-col size= "4">
+          <img src="../assets/img/nudossi.png"  >
+        </ion-col>
+        <ion-col >
+          <ion-row >
+            <ion-col size = "8">Co2 pro Kg: </ion-col>
+            <ion-col size = "4" style="color: #ff0000;">-</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size = "8">Umwelt-Score: </ion-col>
+            <ion-col style="color: #00ff22;">B</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size = "8">Nutri-Score: </ion-col>
+            <ion-col style="color: #ff0000;">E</ion-col>
+          </ion-row>
+    </ion-col>
+    </ion-row>
+
+    </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+
+
+
 </ion-content>
