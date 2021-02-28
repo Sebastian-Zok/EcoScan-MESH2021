@@ -11,7 +11,7 @@ That's why we developed a proof of concept for the Eco-Scan app. With it, produc
 </p>
 
 
-<p align="center" > 
+<p align="right" > 
 <img src="https://github.com/Sebastian-Zok/EcoScan-MESH2021/blob/main/img/mesha.png">
 </p>
 
