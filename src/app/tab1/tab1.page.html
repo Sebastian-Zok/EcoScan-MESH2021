@@ -1,0 +1,43 @@
+
+
+<ion-content [fullscreen]="true" class="center">
+  <br><br>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+      </ion-col>
+      <ion-col size="9">
+        <ion-img src="../assets/img/Home.png" width="20%"></ion-img>
+      </ion-col>
+      <ion-col>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <br><br>
+  <br><br>
+
+ 
+        <ion-button color="primary" (click)="scanCode()" expand="block" size="large">
+          <ion-grid><ion-row>
+            <ion-col>
+              <ion-icon name="barcode-outline"></ion-icon>
+            </ion-col>
+            <ion-col>
+              Scan Code
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        </ion-button>
+    
+
+
+  <div *ngIf="scannedData">
+    <p>
+      Scanned Code Text : <b>{{ scannedData["text"] }}</b>
+    </p>
+    <p>
+      Scanned Code Format : <b>{{ scannedData["format"] }}</b>
+    </p>
+  </div>
+</ion-content>
