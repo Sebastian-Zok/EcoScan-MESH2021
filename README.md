@@ -6,7 +6,6 @@
 
 That's why we developed a proof of concept for the Eco-Scan app. With it, products can be scanned and users get information about their sustainability and whether there might be better alternatives. If we change the behavior of the customers, the producers will be forced to adapt to their needs and take the problem into their own hands. 
 
-Translated with www.DeepL.com/Translator (free version)
 <p align="center" > 
 <img src="https://github.com/Sebastian-Zok/EcoScan-MESH2021/blob/main/img/app.png">
 </p>
